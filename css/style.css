@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "DMMono";
+    src: url("../DMMono-Regular.ttf") format('truetype');
+}
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+display: flex;
+height: 100%;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+body {
+    font-family: 'DMMono', sans-serif;
+    font-size: 24px;
+    background-image: url("../images/flowers-276014_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 100%;
+}
+
+/* Center the content in the browser window */
+.container {
+margin: auto;
+text-align: center;
+}
+
+
+.title {
+font-size: 3rem;
+}
+
+p span {
+    background-color: white;
+}
